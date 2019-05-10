@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paint.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Canvas fx:id="canvasWindow" height="200.0" layoutX="114.0" width="200.0" />
+      <JFXButton fx:id="buttonClear" layoutY="27.0" onAction="#clearButtonAction" text="Очистить" />
+      <JFXButton fx:id="buttonPaint" layoutX="1.0" layoutY="2.0" onAction="#PaintButtonAction" text="Нарисовать" />
+    </children>
+</AnchorPane>
